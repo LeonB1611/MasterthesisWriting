@@ -10,17 +10,19 @@
 \contentsline {section}{\numberline {7}Final Analysis Binning}{6}{section.7}%
 \contentsline {subsection}{\numberline {7.1}Inelasticity in inverse beta decay in the IceCube detector}{6}{subsection.7.1}%
 \contentsline {section}{\numberline {8}IceCube FLERCNN Event Selection}{7}{section.8}%
-\contentsline {section}{\numberline {9}Oscillograms}{7}{section.9}%
-\contentsline {subsection}{\numberline {9.1}Sterile Model}{7}{subsection.9.1}%
-\contentsline {section}{\numberline {10}Inelastictiy Reconstruction}{7}{section.10}%
-\contentsline {subsection}{\numberline {10.1}Reconstruction Performance}{8}{subsection.10.1}%
-\contentsline {subsubsection}{\numberline {10.1.1}CNN-based Reconstructions}{8}{subsubsection.10.1.1}%
-\contentsline {subsubsection}{\numberline {10.1.2}BDT-based Reconstruction}{10}{subsubsection.10.1.2}%
-\contentsline {subsection}{\numberline {10.2}Inelasticity PID Correlation}{11}{subsection.10.2}%
-\contentsline {section}{\numberline {11}Mixed Tracks Cascades}{11}{section.11}%
-\contentsline {section}{\numberline {12}$\nu , \bar {\nu }$ Separation Power}{11}{section.12}%
-\contentsline {section}{\numberline {13}Final Analysis Binning}{12}{section.13}%
-\contentsline {section}{\numberline {14}Results}{12}{section.14}%
-\contentsline {section}{\numberline {15}Discussion}{12}{section.15}%
-\contentsline {section}{\numberline {16}References}{12}{section.16}%
-\contentsline {section}{\numberline {A}Appendix}{12}{appendix.A}%
+\contentsline {section}{\numberline {9}Neutrino Oscillations with nuSQuIDS}{7}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Sterile Neutrino Oscillations}{8}{subsection.9.1}%
+\contentsline {section}{\numberline {10}Convolutional Neural Networks}{10}{section.10}%
+\contentsline {subsection}{\numberline {10.1}CNNs in IceCube}{10}{subsection.10.1}%
+\contentsline {section}{\numberline {11}Inelastictiy Reconstruction}{10}{section.11}%
+\contentsline {subsection}{\numberline {11.1}Reconstruction Performance}{11}{subsection.11.1}%
+\contentsline {subsubsection}{\numberline {11.1.1}CNN-based Reconstructions}{11}{subsubsection.11.1.1}%
+\contentsline {subsubsection}{\numberline {11.1.2}BDT-based Reconstruction}{13}{subsubsection.11.1.2}%
+\contentsline {subsection}{\numberline {11.2}Inelasticity PID Correlation}{14}{subsection.11.2}%
+\contentsline {section}{\numberline {12}Mixed Tracks Cascades}{14}{section.12}%
+\contentsline {section}{\numberline {13}$\nu , \bar {\nu }$ Separation Power}{14}{section.13}%
+\contentsline {section}{\numberline {14}Final Analysis Binning}{15}{section.14}%
+\contentsline {section}{\numberline {15}Results}{15}{section.15}%
+\contentsline {section}{\numberline {16}Discussion}{15}{section.16}%
+\contentsline {section}{\numberline {17}References}{15}{section.17}%
+\contentsline {section}{\numberline {A}Appendix}{15}{appendix.A}%

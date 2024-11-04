@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.3)  3 NOV 2024 18:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.3)  4 NOV 2024 22:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -772,99 +772,142 @@ Package amsfonts Warning: Obsolete command \bold; \mathbf should be used instea
 d on input line 79.
 
 [4] [5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 182--188
+<Graphics/SterileOscParameters/0.087_SM_smoothed_osc_ratio_mu.png, id=181, 594.
+7821pt x 462.528pt>
+File: Graphics/SterileOscParameters/0.087_SM_smoothed_osc_ratio_mu.png Graphic 
+file (type png)
+<use Graphics/SterileOscParameters/0.087_SM_smoothed_osc_ratio_mu.png>
+Package pdftex.def Info: Graphics/SterileOscParameters/0.087_SM_smoothed_osc_ra
+tio_mu.png  used on input line 188.
+(pdftex.def)             Requested size: 364.19667pt x 283.22853pt.
+ [7]
+<Graphics/SterileOscParameters/0.087_th24_smoothed_osc_diff_mu.png, id=190, 620
+.7993pt x 462.528pt>
+File: Graphics/SterileOscParameters/0.087_th24_smoothed_osc_diff_mu.png Graphic
+ file (type png)
+<use Graphics/SterileOscParameters/0.087_th24_smoothed_osc_diff_mu.png>
+Package pdftex.def Info: Graphics/SterileOscParameters/0.087_th24_smoothed_osc_
+diff_mu.png  used on input line 202.
+(pdftex.def)             Requested size: 364.19667pt x 271.35059pt.
+ [8 <./Graphics/SterileOscParameters/0.087_SM_smoothed_osc_ratio_mu.png>]
+<Graphics/SterileOscParameters/0.349_th24_smoothed_osc_diff_mu.png, id=197, 620
+.7993pt x 462.528pt>
+File: Graphics/SterileOscParameters/0.349_th24_smoothed_osc_diff_mu.png Graphic
+ file (type png)
+<use Graphics/SterileOscParameters/0.349_th24_smoothed_osc_diff_mu.png>
+Package pdftex.def Info: Graphics/SterileOscParameters/0.349_th24_smoothed_osc_
+diff_mu.png  used on input line 210.
+(pdftex.def)             Requested size: 364.19667pt x 271.35059pt.
+ [9 <./Graphics/SterileOscParameters/0.087_th24_smoothed_osc_diff_mu.png> <./Gr
+aphics/SterileOscParameters/0.349_th24_smoothed_osc_diff_mu.png>]
+<Graphics/SterileOscParameters/0.262_th2434_smoothed_osc_diff_mu.png, id=206, 6
+50.43pt x 462.528pt>
+File: Graphics/SterileOscParameters/0.262_th2434_smoothed_osc_diff_mu.png Graph
+ic file (type png)
+<use Graphics/SterileOscParameters/0.262_th2434_smoothed_osc_diff_mu.png>
+Package pdftex.def Info: Graphics/SterileOscParameters/0.262_th2434_smoothed_os
+c_diff_mu.png  used on input line 218.
+(pdftex.def)             Requested size: 364.19667pt x 258.99274pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 222--225
 
  []
 
-[7] [8]
+
+Underfull \hbox (badness 10000) in paragraph at lines 234--240
+
+ []
+
+[10 <./Graphics/SterileOscParameters/0.262_th2434_smoothed_osc_diff_mu.png>]
+[11]
 <Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl3_5ge
-v_100rho36_numu.png, id=181, 1958.517pt x 658.3797pt>
+v_100rho36_numu.png, id=217, 1958.517pt x 658.3797pt>
 File: Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl
 3_5gev_100rho36_numu.png Graphic file (type png)
 <use Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl3
 _5gev_100rho36_numu.png>
 Package pdftex.def Info: Graphics/Inelasticity/WithCentral68/weighted/weighted_
-cc_ytruevsyreco_lvl3_5gev_100rho36_numu.png  used on input line 198.
+cc_ytruevsyreco_lvl3_5gev_100rho36_numu.png  used on input line 250.
 (pdftex.def)             Requested size: 455.24411pt x 153.03151pt.
 <Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl3_30g
-ev_100rho36_numu.png, id=183, 1958.517pt x 658.3797pt>
+ev_100rho36_numu.png, id=218, 1958.517pt x 658.3797pt>
 File: Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl
 3_30gev_100rho36_numu.png Graphic file (type png)
 <use Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl3
 _30gev_100rho36_numu.png>
 Package pdftex.def Info: Graphics/Inelasticity/WithCentral68/weighted/weighted_
-cc_ytruevsyreco_lvl3_30gev_100rho36_numu.png  used on input line 204.
+cc_ytruevsyreco_lvl3_30gev_100rho36_numu.png  used on input line 256.
 (pdftex.def)             Requested size: 455.24411pt x 153.03151pt.
 File: Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl
 3_5gev_100rho36_numu.png Graphic file (type png)
 <use Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl3
 _5gev_100rho36_numu.png>
 Package pdftex.def Info: Graphics/Inelasticity/WithCentral68/weighted/weighted_
-cc_ytruevsyreco_lvl3_5gev_100rho36_numu.png  used on input line 212.
+cc_ytruevsyreco_lvl3_5gev_100rho36_numu.png  used on input line 264.
 (pdftex.def)             Requested size: 455.24411pt x 153.03151pt.
- [9 <./Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lv
-l3_5gev_100rho36_numu.png> <./Graphics/Inelasticity/WithCentral68/weighted/weig
-hted_cc_ytruevsyreco_lvl3_30gev_100rho36_numu.png>]
+ [12 <./Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_l
+vl3_5gev_100rho36_numu.png> <./Graphics/Inelasticity/WithCentral68/weighted/wei
+ghted_cc_ytruevsyreco_lvl3_30gev_100rho36_numu.png>]
 <Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl6_5ge
-v_200rho36_numu.png, id=192, 1958.517pt x 658.3797pt>
+v_200rho36_numu.png, id=227, 1958.517pt x 658.3797pt>
 File: Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl
 6_5gev_200rho36_numu.png Graphic file (type png)
 <use Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl6
 _5gev_200rho36_numu.png>
 Package pdftex.def Info: Graphics/Inelasticity/WithCentral68/weighted/weighted_
-cc_ytruevsyreco_lvl6_5gev_200rho36_numu.png  used on input line 218.
+cc_ytruevsyreco_lvl6_5gev_200rho36_numu.png  used on input line 270.
 (pdftex.def)             Requested size: 455.24411pt x 153.03151pt.
 File: Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl
 6_5gev_200rho36_numu.png Graphic file (type png)
 <use Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl6
 _5gev_200rho36_numu.png>
 Package pdftex.def Info: Graphics/Inelasticity/WithCentral68/weighted/weighted_
-cc_ytruevsyreco_lvl6_5gev_200rho36_numu.png  used on input line 230.
+cc_ytruevsyreco_lvl6_5gev_200rho36_numu.png  used on input line 282.
 (pdftex.def)             Requested size: 455.24411pt x 153.03151pt.
- [10 <./Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_l
+ [13 <./Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_l
 vl6_5gev_200rho36_numu.png>]
 File: Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl
 6_5gev_200rho36_numu.png Graphic file (type png)
 <use Graphics/Inelasticity/WithCentral68/weighted/weighted_cc_ytruevsyreco_lvl6
 _5gev_200rho36_numu.png>
 Package pdftex.def Info: Graphics/Inelasticity/WithCentral68/weighted/weighted_
-cc_ytruevsyreco_lvl6_5gev_200rho36_numu.png  used on input line 238.
+cc_ytruevsyreco_lvl6_5gev_200rho36_numu.png  used on input line 290.
 (pdftex.def)             Requested size: 455.24411pt x 153.03151pt.
 
-Overfull \hbox (1.43033pt too wide) in paragraph at lines 242--243
+Overfull \hbox (1.43033pt too wide) in paragraph at lines 294--295
 []\OT1/cmr/m/n/12 The BDT-based re-con-struc-tion shows bet-ter per-for-mance f
 or both types of muon-neutrinos
  []
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 254.
+(hyperref)                removing `math shift' on input line 306.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `\nu' on input line 254.
+(hyperref)                removing `\nu' on input line 306.
 
 
 Package hyperref Warning: Token not allowed in a PDF string (Unicode):
-(hyperref)                removing `math shift' on input line 254.
+(hyperref)                removing `math shift' on input line 306.
 
-[11] (Masterthesis_Template.bbl
+[14] (Masterthesis_Template.bbl
 
 Package natbib Warning: Empty `thebibliography' environment on input line 3.
 
-) [12] [13] (Masterthesis_Template.aux)
+) [15] [16] (Masterthesis_Template.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
  ***********
 Package rerunfilecheck Info: File `Masterthesis_Template.out' has not changed.
-(rerunfilecheck)             Checksum: D0CC7023E3EC063CC4D3EF80D6902A80;4145.
+(rerunfilecheck)             Checksum: 510FAC147A9FEED7FCB4DCD6A55D91D9;4689.
  ) 
 Here is how much of TeX's memory you used:
- 16260 strings out of 474485
- 257709 string characters out of 5760152
- 1937542 words of memory out of 5000000
- 38222 multiletter control sequences out of 15000+600000
+ 16300 strings out of 474485
+ 259885 string characters out of 5760152
+ 1936542 words of memory out of 5000000
+ 38253 multiletter control sequences out of 15000+600000
  567813 words of font info for 72 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  75i,8n,117p,1103b,504s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -874,12 +917,13 @@ pe1/public/amsfonts/cm/cmex10.pfb><G:/MikTeX/fonts/type1/public/amsfonts/cm/cmm
 i12.pfb><G:/MikTeX/fonts/type1/public/amsfonts/cm/cmmi6.pfb><G:/MikTeX/fonts/ty
 pe1/public/amsfonts/cm/cmmi8.pfb><G:/MikTeX/fonts/type1/public/amsfonts/cm/cmr1
 2.pfb><G:/MikTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><G:/MikTeX/fonts/type
-1/public/amsfonts/cm/cmr8.pfb><G:/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb><G:/MikTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><G:/MikTeX/fonts/type1/
-public/amsfonts/cm/cmti12.pfb>
-Output written on Masterthesis_Template.pdf (13 pages, 735462 bytes).
+1/public/amsfonts/cm/cmr6.pfb><G:/MikTeX/fonts/type1/public/amsfonts/cm/cmr8.pf
+b><G:/MikTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><G:/MikTeX/fonts/type1/p
+ublic/amsfonts/cm/cmsy8.pfb><G:/MikTeX/fonts/type1/public/amsfonts/cm/cmti12.pf
+b>
+Output written on Masterthesis_Template.pdf (16 pages, 1177914 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
- 50 named destinations out of 1000 (max. 500000)
- 224 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 322 PDF objects out of 1000 (max. 8388607)
+ 59 named destinations out of 1000 (max. 500000)
+ 260 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -176,9 +176,58 @@ Since the earth consists of neutrons, protons and electrons, the scattering of t
 
 As mentioned before, part of the goal of this work is to use the inelasticity to separate $\nu$ and $\bar{\nu}$ to increase the sensitivity towards parameters of a sterile neutrino in a 3+1 model.
 
+To simulate the oscillation of a 3+1 neutrino model, the python package nuSQuIDS [CITE NUSQUIDS] is used. nuSQuIDS allows us to simulate neutrino oscillations in face of a fourth sterile neutrino only interacting with the other neutrino flavors. Due to this non-interaction with the Z and W boson, the existance of a sterile neutrino could only be observed by a significant change in the muon neutrino survival appearance and disappearance.
+
+
+In this case it is used to investigate how the neutrino oscillation probabilities depend on the newly added sterile parameters $\Theta_{24}$ and $\Theta_{34}$ respectively. The sterile mass splitting $\Delta m_{14^2}=1 eV^2$ as above that the decoherence averages the oscillations out [CITE AVERAGING MASS SPLITTING]. The mass splitting is set to be large relative to the neutrino mass splittings $\Delta m_{12}^2$, $\Delta m_{13}^2$ in the three flavor model [PDG ON MASS SPLITTING]. As such, the sterile mass splitting is approximately the same respectively to the three standard neutrino mass states.
+
 [CITE DEVIATIONS in APP AND DISAPP]
 
- [CITE NUSQUIDS]
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{Graphics/SterileOscParameters/0.087_SM_smoothed_osc_ratio_mu.png}
+\caption{Simulated SM muon neutrino disappearance when propagating through the earth on a straight upgoing track and appearing differnce in oscillation probability}
+\end{figure}
+
+As can be seen, $\nu_\mu$ and $\bar{\nu}_\mu$ show only slight differences in the oscillation probability at energies below 10 GeV. In the following section, the emerging assymetry in the oscillations will be investigated and discussed.
+
+\subsection{Sterile Neutrino Oscillations}
+
+Due to constraints on $\Theta_{14}$ from previous analyses [CITE 14 CONSTRAINTS], only the mixing to the muon and tau neutrino will be investigated in this work as $\Theta_{14}$ will be of little relevance for this analysis. As a consequence the CP-violating phase $\delta_{14}$ can be ignored and set to 0. With. The phases $\delta_{24}, \delta_{34}$ will be set to 0 in this section for simplicitiy's sake.
+
+Oscillograms were investigated for a range of mixing angles $\Theta_{24}$, $\Theta_{34}$ between 5° and 45° switched on each individually and combined.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{Graphics/SterileOscParameters/0.087_th24_smoothed_osc_diff_mu.png}
+\caption{Simulated muon neutrino disappearance when propagating a 3+1 neutrino model through the earth on a straight upgoing track}
+\end{figure}
+
+Even at a mixing angle $\Theta_{24}$ of only 5°, there is already a significant disappearance of muon neutrinos relative to the SM. Due to this analysis being focused on DeepCore and its respective energy range [CITE DEEPCORE ENERGY RANGE], this signal is of little relevance.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{Graphics/SterileOscParameters/0.349_th24_smoothed_osc_diff_mu.png}
+\caption{Simulated muon neutrino disappearance when propagating a 3+1 neutrino model through the earth on a straight upgoing track}
+\end{figure}
+
+As $\Theta_{24}$ increases, so does the change of the oscillation pattern relative to the one corresponding to the SM case. The separation of $\nu$ and $\bar{\nu}$ increases with higher mixing angles, allowing easier discovery of a sterile neutrino. The impact of $\Theta_{34}$ is lesser and more pronounced at lower energies.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.8\textwidth]{Graphics/SterileOscParameters/0.262_th2434_smoothed_osc_diff_mu.png}
+\caption{Simulated muon neutrino disappearance when propagating a 3+1 neutrino model through the earth on a straight upgoing track}
+\end{figure}
+
+Switching on multiple sterile mixing angles at once causes drastic changes in the oscillation pattern even at lower individual mixing angles. A particularly large asymmetry
+can be seen at values of multiple dozen GeV.
+~\\
+
+To conclude, the impact of a fourth sterile neutrino is clearly noticable in the oscillation probability depending on the value of mixing angle $\Theta_{24}, \Theta_{34}$ and has an asymmetric effect depending on the $\nu$, $\bar{\nu}$ oscillations. As such, this asymmetry can be used in principle to detect a sterile neutrino given one has sufficient ability to separate $\nu$ and $\bar{\nu}$.
+
+\section{Convolutional Neural Networks}
+
+\subsection{CNNs in IceCube}
 
 \section{Inelastictiy Reconstruction}
 
