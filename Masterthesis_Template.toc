@@ -1,0 +1,26 @@
+\contentsline {section}{\numberline {1}Introduction}{4}{section.1}%
+\contentsline {section}{\numberline {2}Neutrinos}{4}{section.2}%
+\contentsline {subsection}{\numberline {2.1}Neutrino Oscillation}{4}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Sterile Neutrinos}{4}{section.3}%
+\contentsline {subsection}{\numberline {3.1}Source of atmospheric neutrinos}{5}{subsection.3.1}%
+\contentsline {section}{\numberline {4}The IceCube Neutrino Observatory}{5}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Events in the IceCube detector}{6}{subsection.4.1}%
+\contentsline {section}{\numberline {5}Event Simulation}{6}{section.5}%
+\contentsline {section}{\numberline {6}Data Processing}{6}{section.6}%
+\contentsline {section}{\numberline {7}Final Analysis Binning}{6}{section.7}%
+\contentsline {subsection}{\numberline {7.1}Inelasticity in inverse beta decay in the IceCube detector}{6}{subsection.7.1}%
+\contentsline {section}{\numberline {8}IceCube FLERCNN Event Selection}{7}{section.8}%
+\contentsline {section}{\numberline {9}Oscillograms}{7}{section.9}%
+\contentsline {subsection}{\numberline {9.1}Sterile Model}{7}{subsection.9.1}%
+\contentsline {section}{\numberline {10}Inelastictiy Reconstruction}{7}{section.10}%
+\contentsline {subsection}{\numberline {10.1}Reconstruction Performance}{8}{subsection.10.1}%
+\contentsline {subsubsection}{\numberline {10.1.1}CNN-based Reconstructions}{8}{subsubsection.10.1.1}%
+\contentsline {subsubsection}{\numberline {10.1.2}BDT-based Reconstruction}{10}{subsubsection.10.1.2}%
+\contentsline {subsection}{\numberline {10.2}Inelasticity PID Correlation}{11}{subsection.10.2}%
+\contentsline {section}{\numberline {11}Mixed Tracks Cascades}{11}{section.11}%
+\contentsline {section}{\numberline {12}$\nu , \bar {\nu }$ Separation Power}{11}{section.12}%
+\contentsline {section}{\numberline {13}Final Analysis Binning}{12}{section.13}%
+\contentsline {section}{\numberline {14}Results}{12}{section.14}%
+\contentsline {section}{\numberline {15}Discussion}{12}{section.15}%
+\contentsline {section}{\numberline {16}References}{12}{section.16}%
+\contentsline {section}{\numberline {A}Appendix}{12}{appendix.A}%
