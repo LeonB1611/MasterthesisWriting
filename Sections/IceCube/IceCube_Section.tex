@@ -1,0 +1,124 @@
+\documentclass[a4paper,12pt,numbered]{article}
+
+\usepackage{mathtools}
+\usepackage{amsmath}
+\usepackage{soul}
+\usepackage{amssymb,amsmath,amsfonts}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{float}
+\usepackage[german=quotes]{csquotes}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+\usepackage{gensymb}
+\usepackage{units}
+\usepackage{hhline}
+\usepackage{color}
+\usepackage[export]{adjustbox}
+\usepackage[nottoc,numbib]{tocbibind}
+\usepackage[square,numbers]{natbib}
+\usepackage{titling}
+\usepackage{subfloat}
+\usepackage{multicol}
+\usepackage{caption}
+\usepackage{authblk}
+\usepackage{graphics}
+\usepackage{subcaption}
+\usepackage{pdfpages}
+
+\begin{document}
+
+\citep{Pauli_Letter}
+
+\section{Introduction}
+The IceCube Neutrino Observatory is a large-scale experiment located at the South Pole, designed to detect high-energy neutrinos. The detector spans a cubic-kilometer volume of Antarctic ice and uses an array of detectors buried deep within the ice sheet to capture Cherenkov radiation produced by charged particles from neutrino interactions.
+
+\section{The IceCube Detector}
+
+\subsection{Architecture: Photomultiplier Arrays in Antarctic Ice}
+IceCube consists of an array of over 5,000 basketball-sized optical detectors, known as Digital Optical Modules (DOMs), deployed along 86 vertical strings in the Antarctic ice sheet. These DOMs are designed to detect Cherenkov radiation emitted when a high-energy neutrino interacts with the ice. The detector is located between 1,450 meters and 2,450 meters below the surface, embedded in the clear Antarctic ice, which serves as an excellent medium for the propagation of Cherenkov light.
+
+Each string of DOMs spans a vertical distance of 1,000 meters, and there are 60 DOMs placed along each string at various depths. The DOMs are sensitive to the faint flashes of blue Cherenkov light that are produced when relativistic charged particles pass through the ice. These photons are detected by the photomultiplier tubes (PMTs) inside each DOM, which convert the light into an electrical signal for further analysis.
+
+\subsection{Detection of Neutrino Interactions: Cherenkov Light}
+Neutrinos themselves do not interact directly with the IceCube detector, but when a neutrino interacts with a nucleus in the ice, it produces secondary particles, such as muons, electrons, or hadrons. These charged particles can travel faster than the speed of light in the ice, which causes them to emit Cherenkov radiation.
+
+Cherenkov radiation is emitted in a cone around the moving particle, and the angle of this cone is determined by the velocity of the particle and the speed of light in the medium. The DOMs detect this Cherenkov light, and by analyzing the timing and intensity of the light reaching each DOM, the trajectory and energy of the particle can be reconstructed.
+
+\subsection{Tracks vs. Cascades}
+IceCube distinguishes between two primary types of neutrino interactions: tracks and cascades. 
+
+\textbf{Tracks} refer to interactions where a high-energy muon or electron is produced. These particles travel through the ice, emitting Cherenkov radiation along their paths. The resulting track-like signature provides valuable information about the neutrino’s energy and direction.
+
+\textbf{Cascades}, on the other hand, occur when a neutrino interaction produces a short-lived particle, such as a hadron, which then decays rapidly into a shower of particles. These showers emit Cherenkov radiation in all directions, leading to a spherically symmetric pattern of light. The event reconstruction of cascades typically focuses on the total energy deposited in the event, as opposed to the directional information provided by tracks.
+
+\section{Event Reconstruction Methods}
+
+\subsection{Traditional Likelihood-Based Reconstruction}
+In traditional event reconstruction, the primary approach used by IceCube has been likelihood-based methods. These methods involve constructing a likelihood function that describes the probability of observing the measured Cherenkov light given a set of possible particle interactions. The reconstruction process then maximizes this likelihood function to determine the best-fit parameters for the neutrino event, such as the particle’s energy, direction, and type.
+
+The likelihood-based approach typically uses a model that takes into account the geometry of the detector, the attenuation of light in the ice, and the behavior of the detected light as a function of time. While this method has been successful, it has limitations. For instance, likelihood-based methods can struggle with noisy data or ambiguous events, such as those where the Cherenkov signal is weak or scattered. Additionally, the computational cost increases as the complexity of the event increases, particularly for cascades, where the shower is spherically symmetric and harder to distinguish from background noise.
+
+\subsection{Transition to CNN-Based Reconstruction}
+With the advent of machine learning, IceCube has explored using Convolutional Neural Networks (CNNs) to improve event reconstruction, particularly for high-energy neutrino interactions.
+
+\subsubsection{CNN Architecture}
+A CNN is a class of deep neural networks that has proven particularly effective in image recognition tasks. The architecture consists of layers of convolutional filters that automatically learn spatial hierarchies of features from input data, followed by pooling layers that reduce dimensionality, and fully connected layers that output the final predictions. In the context of IceCube, the input data is the raw timing and intensity information from the DOMs, which is treated as a 2D image or matrix. CNNs can automatically learn features from the data without requiring explicit hand-crafted models, which makes them an ideal tool for complex neutrino interactions.
+
+\subsubsection{Development of CNN Models for IceCube}
+CNN-based models for IceCube event reconstruction were developed through collaboration with machine learning researchers and have shown to significantly improve the accuracy and speed of reconstruction. Key works in this area include the development of CNNs to distinguish between track and cascade events, as well as improving the resolution of energy and direction estimates for high-energy neutrinos. These networks are trained using a large dataset of simulated neutrino interactions and real data, allowing them to generalize across different types of events.
+
+\subsubsection{Benefits of CNN-Based Reconstruction}
+The adoption of CNNs has several advantages. First, CNNs can handle more complex data distributions than traditional methods, which allows for more accurate reconstruction of events, especially for cascades. Second, CNNs are computationally efficient once trained, allowing for faster processing of large datasets. This is crucial given the enormous amount of data collected by IceCube. Finally, CNNs can improve the separation between signal and background events, reducing the number of false positives and improving the quality of the reconstructed events.
+
+\section{Event Processing Overview}
+Event processing in IceCube begins when raw signals from the DOMs are recorded. These signals represent the Cherenkov light emitted by secondary charged particles produced by neutrino interactions. The initial raw data undergoes several stages of processing, from basic quality checks to detailed event reconstruction. This process ensures that only the most relevant events are analyzed further and that false positives are minimized.
+
+The data is divided into a series of stages known as \textbf{filter levels}, each with its specific purpose. These levels range from Level 1, which performs basic checks on raw data, to Level 6, which completes detailed event reconstruction and classification.
+
+\subsection{Level 1 - Data Quality Filters}
+The first stage in event processing is the Level 1 filtering. At this stage, data is screened for basic quality checks. Raw signals from the DOMs are examined to ensure that they meet minimum criteria for further analysis. For example, data from DOMs that show issues such as high noise levels or that are outside of the geographical region of interest (i.e., beyond the active detection volume) are discarded.
+
+The goal of Level 1 filters is to reduce the dataset size by removing events that clearly do not correspond to neutrino interactions. This stage typically applies simple rules, such as signal amplitude thresholds and time coincidence windows, to identify whether a candidate event is worth further processing. These checks can also discard non-physical signals, such as those caused by electronics malfunctions or background noise from cosmic ray showers.
+
+\subsection{Level 2 - Event Reconstruction Start}
+After passing the Level 1 filters, the data moves to Level 2, where more advanced reconstruction techniques begin. Here, the goal is to associate signals from individual DOMs with potential particle tracks or cascades. This stage includes algorithms that group signals based on their time of arrival and their spatial location within the detector, effectively building a first approximation of the particle's trajectory.
+
+In this phase, events are categorized based on the type of interaction. For example, high-energy muon tracks (which can travel long distances through the ice) are distinguished from electromagnetic showers (cascades) produced by electrons or photons. Algorithms such as the \texttt{direct fit} or \texttt{track fitting} are often applied to estimate the direction and energy of the incoming neutrino.
+
+\subsection{Level 3 - Track and Cascade Event Identification}
+At Level 3, events are further classified into two broad categories: \textbf{tracks} and \textbf{cascades}. This classification is crucial because it allows scientists to determine the type of neutrino interaction that occurred. Track-like events correspond to the interactions that produce long, continuous particle paths, typically muons, while cascade-like events involve more diffuse, spherically symmetric light patterns associated with short-lived hadrons or electrons.
+
+Track events are further analyzed to determine the direction and energy of the primary particle. Algorithms such as maximum likelihood estimations and Bayesian analysis can be used to refine the track fit. For cascades, the focus is on determining the energy deposited in the event, as cascades often lack clear directional information due to their spherically symmetric nature.
+
+\subsection{Level 4 - Particle Type Identification and Energy Estimation}
+At Level 4, more detailed identification and energy estimations are performed for both track and cascade events. For tracks, the main goal is to refine the energy estimation and improve the angular resolution of the reconstructed neutrino direction. This is done by analyzing the distribution of Cherenkov light along the track and applying more advanced fitting techniques.
+
+For cascades, the primary goal is to estimate the total energy of the shower. This is done by integrating the total amount of light detected over the entire event, taking into account the attenuation of light in the ice and the geometry of the detector. Energy estimations can be complicated by the spread of the Cherenkov light in the surrounding ice, and so sophisticated methods are employed to account for the geometry of the event and the scattering of photons.
+
+\subsection{Level 5 - Flavour Determination and Oscillation Analysis}
+Level 5 filters focus on identifying the flavour of the neutrino involved in the interaction. This stage aims to distinguish between electron, muon, and tau neutrinos based on the event signature. For instance, muon neutrino interactions are likely to produce long, high-energy tracks, while electron neutrino interactions typically result in more spherical cascades. Tau neutrinos can be identified by their distinctive signature, which may include a visible secondary particle decaying from the tau lepton.
+
+Additionally, this level performs preliminary oscillation analyses by comparing the reconstructed energy and direction to known models of neutrino oscillations, allowing scientists to begin testing neutrino mass hierarchies and mixing angles.
+
+\subsection{Level 6 - Final Event Reconstruction and Analysis}
+The final level, Level 6, involves complete event reconstruction, including the final determination of neutrino energy, flavour, and direction. At this stage, a detailed analysis of the event is performed using advanced computational techniques, such as machine learning algorithms or Monte Carlo simulations, to improve the accuracy of the measurements.
+
+In addition to refining the physical properties of the event, this stage also includes the application of various event selection criteria based on physics requirements. These criteria can be based on the expected signature of neutrino interactions, such as the need to remove background events like atmospheric muons or misidentified cosmic ray showers.
+
+\section{Event Selection and Background Suppression}
+One of the key challenges in neutrino detection is distinguishing signal from background. IceCube employs sophisticated background suppression techniques to remove non-neutrino events, such as atmospheric muons, which can swamp the data and obscure the neutrino signal. These techniques involve both hardware and software filtering, with specific attention given to the timing and spatial distribution of the Cherenkov light. For instance, events that are consistent with atmospheric muons, which travel faster than neutrino-induced particles, can be rejected based on their light distribution patterns.
+
+\section{Recent Developments and Future Directions}
+With the continued operation of IceCube, the data processing pipeline is constantly evolving. New techniques, including machine learning-based event reconstruction and real-time data analysis, are being incorporated into the system. These developments aim to improve the sensitivity of the detector, reduce event reconstruction time, and better discriminate between signal and background events.
+
+\section{Conclusion}
+Event processing at IceCube involves a multi-step process, with each filter level designed to progressively refine the event reconstruction and analysis. The process begins with simple quality checks and ends with a detailed determination of the neutrino's energy, direction, and type. As the field of neutrino physics progresses, new tools and algorithms, including machine learning-based methods, are being developed to improve the precision and efficiency of event reconstruction.
+
+\bibliography{IceCubeReferences}
+\bibliographystyle{unsrturl}
+
+\end{document}
+
+

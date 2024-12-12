@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.14)  18 NOV 2024 10:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.26 (MiKTeX 24.4) (preloaded format=pdflatex 2024.11.14)  12 DEC 2024 14:49
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -654,24 +654,24 @@ LaTeX Warning: Unused global option(s):
 (Neutrino_Section.aux)
 \openout1 = `Neutrino_Section.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 30.
-LaTeX Font Info:    ... okay on input line 30.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 32.
+LaTeX Font Info:    ... okay on input line 32.
 
 (C:\Users\leon\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mki
 i
@@ -732,20 +732,20 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package hyperref Info: Link coloring OFF on input line 30.
+Package hyperref Info: Link coloring OFF on input line 32.
 (Neutrino_Section.out) (Neutrino_Section.out)
 \@outlinefile=\write3
 \openout3 = `Neutrino_Section.out'.
 
-LaTeX Info: Redefining \celsius on input line 30.
-Package gensymb Info: Faking symbols for \degree and \celsius on input line 30.
+LaTeX Info: Redefining \celsius on input line 32.
+Package gensymb Info: Faking symbols for \degree and \celsius on input line 32.
 
 
 
 Package gensymb Warning: Not defining \perthousand.
 
-LaTeX Info: Redefining \ohm on input line 30.
-Package gensymb Info: Using \Omega for \ohm on input line 30.
+LaTeX Info: Redefining \ohm on input line 32.
+Package gensymb Info: Using \Omega for \ohm on input line 32.
 
 Package gensymb Warning: Not defining \micro.
 
@@ -764,97 +764,277 @@ Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 ))
-Overfull \hbox (2.11705pt too wide) in paragraph at lines 38--39
-\OT1/cmr/m/n/12 In the Stan-dard Model (SM) neu-tri-nos are elec-tro-mag-net-i-
-cally neu-tral, half-integer-
- []
-
-<Neutrino_Figures/SM.png, id=59, 3513.125pt x 2890.8pt>
-File: Neutrino_Figures/SM.png Graphic file (type png)
-<use Neutrino_Figures/SM.png>
-Package pdftex.def Info: Neutrino_Figures/SM.png  used on input line 43.
-(pdftex.def)             Requested size: 334.60422pt x 275.29051pt.
-
-
-[1
-
-{C:/Users/leon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-LaTeX Font Info:    Trying to load font information for U+msa on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 38.
 
 
 (C:\Users\leon\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 48.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 38.
 
 
 (C:\Users\leon\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \hbox (13.0113pt too wide) in paragraph at lines 57--58
-[]\OT1/cmr/m/n/12 This mix-ing is cod-i-fied in the uni-tary Pontecorvo-Maki-Na
-kagawa-Sakata (PMNS)
+Underfull \hbox (badness 10000) in paragraph at lines 36--39
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 42--45
+
  []
 
 
 
-[2 <./Neutrino_Figures/SM.png>]
-<Neutrino_Figures/mass_ordering.jpg, id=74, 695.59875pt x 602.25pt>
-File: Neutrino_Figures/mass_ordering.jpg Graphic file (type jpg)
-<use Neutrino_Figures/mass_ordering.jpg>
-Package pdftex.def Info: Neutrino_Figures/mass_ordering.jpg  used on input line
- 95.
-(pdftex.def)             Requested size: 313.69025pt x 271.58893pt.
+[1
 
+{C:/Users/leon/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+Underfull \hbox (badness 10000) in paragraph at lines 61--64
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 71--74
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 85--88
+
+ []
+
+
+
+[2]
 
 [3]
-Overfull \hbox (3.95444pt too wide) in paragraph at lines 106--114
-[]\OT1/cmr/m/n/12 leptons Neu-trino elec-ton scat-ter-ing par-ti-cle an-tipar-t
-i-cle scat-ter-ing nu-clei neutino
+Overfull \hbox (15.9507pt too wide) in paragraph at lines 157--158
+[]\OT1/cmr/m/n/12 where $\OML/cmm/m/it/12 ^^N[]$ \OT1/cmr/m/n/12 is the Kroneck
+er-Delta. As the mass split-ting be-tween $^^A\OML/cmm/m/it/12 m[] \OT1/cmr/m/n
+/12 = \OMS/cmsy/m/n/12 O\OT1/cmr/m/n/12 (10[])[][]$
  []
 
 
-Overfull \hbox (29.8pt too wide) in paragraph at lines 117--118
-\OT1/cmr/m/n/12 the pres-ence of and in-ter-ac-tions with elec-trons called the
- Mikheyev{Smirnov{Wolfenstein
+Underfull \hbox (badness 10000) in paragraph at lines 173--176
+
  []
 
 
 
-[4 <./Neutrino_Figures/mass_ordering.jpg>]
-No file Neutrino_Section.bbl.
+[4]
+<Neutrino_Figures/cosmic_ray.jpg, id=176, 151.767pt x 115.3911pt>
+File: Neutrino_Figures/cosmic_ray.jpg Graphic file (type jpg)
+<use Neutrino_Figures/cosmic_ray.jpg>
+Package pdftex.def Info: Neutrino_Figures/cosmic_ray.jpg  used on input line 19
+3.
+(pdftex.def)             Requested size: 418.25368pt x 318.03957pt.
 
 
-[5] (Neutrino_Section.aux)
+[5]
+<Neutrino_Figures/atmospheric_neu_flux.png, id=183, 544.28343pt x 461.47406pt>
+File: Neutrino_Figures/atmospheric_neu_flux.png Graphic file (type png)
+<use Neutrino_Figures/atmospheric_neu_flux.png>
+Package pdftex.def Info: Neutrino_Figures/atmospheric_neu_flux.png  used on inp
+ut line 212.
+(pdftex.def)             Requested size: 418.25368pt x 354.61787pt.
+
+
+[6 <./Neutrino_Figures/cosmic_ray.jpg>]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+
+[7 <./Neutrino_Figures/atmospheric_neu_flux.png>]
+
+[8]
+<Neutrino_Figures/nmo.png, id=204, 3158.80125pt x 1788.6825pt>
+File: Neutrino_Figures/nmo.png Graphic file (type png)
+<use Neutrino_Figures/nmo.png>
+Package pdftex.def Info: Neutrino_Figures/nmo.png  used on input line 266.
+(pdftex.def)             Requested size: 418.25368pt x 236.8219pt.
+
+
+[9 <./Neutrino_Figures/nmo.png>]
+
+LaTeX Warning: Reference `tab:neutrino_params' on page 10 undefined on input li
+ne 289.
+
+
+Package natbib Warning: Citation `Fogli_2012' on page 10 undefined on input lin
+e 297.
+
+
+Package natbib Warning: Citation `Fogli_2012' on page 10 undefined on input lin
+e 298.
+
+
+Package natbib Warning: Citation `Fogli_2012' on page 10 undefined on input lin
+e 299.
+
+
+Package natbib Warning: Citation `Fukuda_2002' on page 10 undefined on input li
+ne 299.
+
+
+Package natbib Warning: Citation `T2K_2023' on page 10 undefined on input line 
+300.
+
+
+Package natbib Warning: Citation `T2K_2023' on page 10 undefined on input line 
+301.
+
+
+Package natbib Warning: Citation `Fogli_2012' on page 10 undefined on input lin
+e 302.
+
+
+Package natbib Warning: Citation `T2K_2023' on page 10 undefined on input line 
+302.
+
+
+
+[10]
+
+[11]
+
+[12]
+
+Package natbib Warning: Citation `LSND' on page 13 undefined on input line 369.
+
+
+
+Package natbib Warning: Citation `MiniBooNE' on page 13 undefined on input line
+ 369.
+
+
+Package natbib Warning: Citation `LSND' on page 13 undefined on input line 383.
+
+
+
+Package natbib Warning: Citation `MiniBooNE' on page 13 undefined on input line
+ 383.
+
+
+
+[13]
+
+Package natbib Warning: Citation `LSND' on page 14 undefined on input line 419.
+
+
+
+Package natbib Warning: Citation `MiniBooNE' on page 14 undefined on input line
+ 419.
+
+
+Package natbib Warning: Citation `DayaBay' on page 14 undefined on input line 4
+21.
+
+
+Package natbib Warning: Citation `IceCube' on page 14 undefined on input line 4
+21.
+
+
+Package natbib Warning: Citation `T2K' on page 14 undefined on input line 423.
+
+
+Package natbib Warning: Citation `NOvA' on page 14 undefined on input line 423.
+
+
+
+Package natbib Warning: Citation `T2K' on page 14 undefined on input line 425.
+
+
+Package natbib Warning: Citation `MINOS' on page 14 undefined on input line 425
+.
+
+
+Package natbib Warning: Citation `SuperK' on page 14 undefined on input line 42
+5.
+
+
+Package natbib Warning: Citation `Fogli_2012' on page 14 undefined on input lin
+e 427.
+
+
+Package natbib Warning: Citation `DayaBay' on page 14 undefined on input line 4
+27.
+
+
+Package natbib Warning: Citation `T2K_2023' on page 14 undefined on input line 
+429.
+
+
+Package natbib Warning: Citation `NOvA' on page 14 undefined on input line 429.
+
+
+
+Overfull \hbox (195.63425pt too wide) in paragraph at lines 415--432
+ [][] 
+ []
+
+
+
+[14]
+
+[15] (Neutrino_Section.bbl
+
+[16]
+
+[17]
+
+[18]
+
+[19])
+
+Package natbib Warning: There were undefined citations.
+
+
+
+[20] (Neutrino_Section.aux)
  ***********
 LaTeX2e <2024-11-01>
 L3 programming layer <2024-11-02>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
 Package rerunfilecheck Info: File `Neutrino_Section.out' has not changed.
-(rerunfilecheck)             Checksum: B9DACC574850009A45D00F3EB035EE4A;2026.
+(rerunfilecheck)             Checksum: 7923AE9BBBED579D8B0B88306E87E8A9;5153.
  ) 
 Here is how much of TeX's memory you used:
- 16276 strings out of 473681
- 265022 string characters out of 5719670
- 681138 words of memory out of 5000000
- 39076 multiletter control sequences out of 15000+600000
- 564545 words of font info for 60 fonts, out of 8000000 for 9000
+ 16425 strings out of 473681
+ 268149 string characters out of 5719670
+ 693593 words of memory out of 5000000
+ 39163 multiletter control sequences out of 15000+600000
+ 565398 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,117p,866b,502s stack positions out of 10000i,1000n,20000p,200000b,200000s
-<C:/Users/leon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/c
-mbx12.pfb><C:/Users/leon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfo
-nts/cm/cmex10.pfb><C:/Users/leon/AppData/Local/Programs/MiKTeX/fonts/type1/publ
-ic/amsfonts/cm/cmmi12.pfb><C:/Users/leon/AppData/Local/Programs/MiKTeX/fonts/ty
-pe1/public/amsfonts/cm/cmmi6.pfb><C:/Users/leon/AppData/Local/Programs/MiKTeX/f
-onts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/leon/AppData/Local/Programs/M
-iKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/leon/AppData/Local/Pro
-grams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/leon/AppData/Loc
-al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/leon/AppDa
-ta/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/le
-on/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on Neutrino_Section.pdf (5 pages, 995534 bytes).
+ 75i,21n,117p,837b,680s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\leon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
+200.pk><C:/Users/leon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts
+/cm/cmbx12.pfb><C:/Users/leon/AppData/Local/Programs/MiKTeX/fonts/type1/public/
+amsfonts/cm/cmex10.pfb><C:/Users/leon/AppData/Local/Programs/MiKTeX/fonts/type1
+/public/amsfonts/cm/cmmi12.pfb><C:/Users/leon/AppData/Local/Programs/MiKTeX/fon
+ts/type1/public/amsfonts/cm/cmmi6.pfb><C:/Users/leon/AppData/Local/Programs/MiK
+TeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/leon/AppData/Local/Progr
+ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/leon/AppData/Loca
+l/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/leon/AppDat
+a/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/leon/
+AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Use
+rs/leon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+<C:/Users/leon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmt
+i12.pfb><C:/Users/leon/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfont
+s/cm/cmtt12.pfb>
+Output written on Neutrino_Section.pdf (20 pages, 387321 bytes).
 PDF statistics:
- 146 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 123 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 371 PDF objects out of 1000 (max. 8388607)
+ 81 named destinations out of 1000 (max. 500000)
+ 248 words of extra memory for PDF output out of 10000 (max. 10000000)
 
