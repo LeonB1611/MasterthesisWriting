@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.3)  4 DEC 2024 10:26
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 24.1) (preloaded format=pdflatex 2024.10.3)  12 DEC 2024 02:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -797,141 +797,131 @@ er-Delta. As the mass split-ting be-tween $^^A\OML/cmm/m/it/12 m[] \OT1/cmr/m/n
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 166--171
+Underfull \hbox (badness 10000) in paragraph at lines 173--177
 
  []
 
-[4] [5]
+[4] [5] [6]
+<Neutrino_Figures/nmo.png, id=186, 3158.80125pt x 1788.6825pt>
+File: Neutrino_Figures/nmo.png Graphic file (type png)
+<use Neutrino_Figures/nmo.png>
+Package pdftex.def Info: Neutrino_Figures/nmo.png  used on input line 244.
+(pdftex.def)             Requested size: 418.25368pt x 236.8219pt.
+ [7] [8 <./Neutrino_Figures/nmo.png>]
 
-LaTeX Warning: Reference `tab:neutrino_params' on page 6 undefined on input lin
-e 224.
-
-
-Package natbib Warning: Citation `Fogli_2012' on page 6 undefined on input line
- 232.
-
-
-Package natbib Warning: Citation `Fogli_2012' on page 6 undefined on input line
- 233.
+LaTeX Warning: Reference `tab:neutrino_params' on page 9 undefined on input lin
+e 267.
 
 
-Package natbib Warning: Citation `Fogli_2012' on page 6 undefined on input line
- 234.
+Package natbib Warning: Citation `Fogli_2012' on page 9 undefined on input line
+ 275.
 
 
-Package natbib Warning: Citation `Fukuda_2002' on page 6 undefined on input lin
-e 234.
+Package natbib Warning: Citation `Fogli_2012' on page 9 undefined on input line
+ 276.
 
 
-Package natbib Warning: Citation `T2K_2023' on page 6 undefined on input line 2
-35.
+Package natbib Warning: Citation `Fogli_2012' on page 9 undefined on input line
+ 277.
 
 
-Package natbib Warning: Citation `T2K_2023' on page 6 undefined on input line 2
-36.
+Package natbib Warning: Citation `Fukuda_2002' on page 9 undefined on input lin
+e 277.
 
 
-Package natbib Warning: Citation `Fogli_2012' on page 6 undefined on input line
- 237.
+Package natbib Warning: Citation `T2K_2023' on page 9 undefined on input line 2
+78.
 
 
-Package natbib Warning: Citation `T2K_2023' on page 6 undefined on input line 2
-37.
-
-[6] [7] [8]
-
-Package natbib Warning: Citation `LSND' on page 9 undefined on input line 300.
+Package natbib Warning: Citation `T2K_2023' on page 9 undefined on input line 2
+79.
 
 
-Package natbib Warning: Citation `MiniBooNE' on page 9 undefined on input line 
-300.
+Package natbib Warning: Citation `Fogli_2012' on page 9 undefined on input line
+ 280.
 
 
-Package natbib Warning: Citation `LSND' on page 9 undefined on input line 314.
+Package natbib Warning: Citation `T2K_2023' on page 9 undefined on input line 2
+80.
 
+[9] [10] [11]
 
-Package natbib Warning: Citation `MiniBooNE' on page 9 undefined on input line 
-314.
-
-[9]
-
-Package natbib Warning: Citation `LSND' on page 10 undefined on input line 350.
+Package natbib Warning: Citation `LSND' on page 12 undefined on input line 347.
 
 
 
-Package natbib Warning: Citation `MiniBooNE' on page 10 undefined on input line
- 350.
+Package natbib Warning: Citation `MiniBooNE' on page 12 undefined on input line
+ 347.
 
 
-Package natbib Warning: Citation `DayaBay' on page 10 undefined on input line 3
-52.
-
-
-Package natbib Warning: Citation `IceCube' on page 10 undefined on input line 3
-52.
-
-
-Package natbib Warning: Citation `T2K' on page 10 undefined on input line 354.
-
-
-Package natbib Warning: Citation `NOvA' on page 10 undefined on input line 354.
+Package natbib Warning: Citation `LSND' on page 12 undefined on input line 361.
 
 
 
-Package natbib Warning: Citation `T2K' on page 10 undefined on input line 356.
+Package natbib Warning: Citation `MiniBooNE' on page 12 undefined on input line
+ 361.
+
+[12]
+
+Package natbib Warning: Citation `LSND' on page 13 undefined on input line 397.
 
 
-Package natbib Warning: Citation `MINOS' on page 10 undefined on input line 356
+
+Package natbib Warning: Citation `MiniBooNE' on page 13 undefined on input line
+ 397.
+
+
+Package natbib Warning: Citation `DayaBay' on page 13 undefined on input line 3
+99.
+
+
+Package natbib Warning: Citation `IceCube' on page 13 undefined on input line 3
+99.
+
+
+Package natbib Warning: Citation `T2K' on page 13 undefined on input line 401.
+
+
+Package natbib Warning: Citation `NOvA' on page 13 undefined on input line 401.
+
+
+
+Package natbib Warning: Citation `T2K' on page 13 undefined on input line 403.
+
+
+Package natbib Warning: Citation `MINOS' on page 13 undefined on input line 403
 .
 
 
-Package natbib Warning: Citation `SuperK' on page 10 undefined on input line 35
-6.
+Package natbib Warning: Citation `SuperK' on page 13 undefined on input line 40
+3.
 
 
-Package natbib Warning: Citation `Fogli_2012' on page 10 undefined on input lin
-e 358.
+Package natbib Warning: Citation `Fogli_2012' on page 13 undefined on input lin
+e 405.
 
 
-Package natbib Warning: Citation `DayaBay' on page 10 undefined on input line 3
-58.
+Package natbib Warning: Citation `DayaBay' on page 13 undefined on input line 4
+05.
 
 
-Package natbib Warning: Citation `T2K_2023' on page 10 undefined on input line 
-360.
+Package natbib Warning: Citation `T2K_2023' on page 13 undefined on input line 
+407.
 
 
-Package natbib Warning: Citation `NOvA' on page 10 undefined on input line 360.
+Package natbib Warning: Citation `NOvA' on page 13 undefined on input line 407.
 
 
 
-Overfull \hbox (195.63425pt too wide) in paragraph at lines 346--363
+Overfull \hbox (195.63425pt too wide) in paragraph at lines 393--410
  [][] 
  []
 
-[10] [11] (Neutrino_Section.bbl
-Underfull \hbox (badness 1472) in paragraph at lines 9--18
-[]\OT1/cmr/m/n/12 C. L. Cowan, F. Reines, F. B. Har-ri-son, H. W. Kruse, and A.
- D.
- []
-
-
-Underfull \hbox (badness 1430) in paragraph at lines 9--18
-\OT1/cmr/m/n/12 McGuire.  De-tec-tion of the free neu-trino: a con-fir-ma-tion.
-  \OT1/cmr/m/it/12 Sci-ence\OT1/cmr/m/n/12 ,
- []
-
-
-Underfull \hbox (badness 1205) in paragraph at lines 20--28
-[]\OT1/cmr/m/n/12 G. Danby, J-M. Gail-lard, K. Gou-lianos, L. M. Le-d-er-man, N
-. Mis-try,
- []
-
-[12] [13] [14])
+[13] [14] (Neutrino_Section.bbl [15] [16] [17])
 
 Package natbib Warning: There were undefined citations.
 
-[15] (Neutrino_Section.aux)
+[18] (Neutrino_Section.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-04>
@@ -941,16 +931,16 @@ L3 programming layer <2024-01-04>
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `Neutrino_Section.out' has not changed.
-(rerunfilecheck)             Checksum: 73E1892C825350FCA9F455DDD005A535;4842.
+(rerunfilecheck)             Checksum: 07E107C521C4E96606F6013C146DE25B;5168.
  ) 
 Here is how much of TeX's memory you used:
- 16282 strings out of 474485
- 256825 string characters out of 5760152
- 1951542 words of memory out of 5000000
- 38232 multiletter control sequences out of 15000+600000
+ 16310 strings out of 474485
+ 257487 string characters out of 5760152
+ 1952542 words of memory out of 5000000
+ 38252 multiletter control sequences out of 15000+600000
  565398 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,21n,117p,812b,665s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 75i,21n,117p,837b,673s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\leon\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1
 200.pk><G:/MikTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><G:/MikTeX/fonts/ty
 pe1/public/amsfonts/cm/cmex10.pfb><G:/MikTeX/fonts/type1/public/amsfonts/cm/cmm
@@ -961,9 +951,9 @@ pe1/public/amsfonts/cm/cmmi8.pfb><G:/MikTeX/fonts/type1/public/amsfonts/cm/cmr1
 fb><G:/MikTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb><G:/MikTeX/fonts/type1/p
 ublic/amsfonts/cm/cmti12.pfb><G:/MikTeX/fonts/type1/public/amsfonts/cm/cmtt12.p
 fb><G:/MikTeX/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on Neutrino_Section.pdf (15 pages, 245285 bytes).
+Output written on Neutrino_Section.pdf (18 pages, 279694 bytes).
 PDF statistics:
- 318 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 500000)
- 217 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 351 PDF objects out of 1000 (max. 8388607)
+ 75 named destinations out of 1000 (max. 500000)
+ 238 words of extra memory for PDF output out of 10000 (max. 10000000)
 

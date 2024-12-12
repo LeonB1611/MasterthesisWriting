@@ -35,7 +35,7 @@
 
 Neutrinos were first postulated by Wolfgang Pauli in 1930 upon discovering that the energy spectrum of electrons in nuclear beta decay of N- and Li-6 nuclei is continuous. As the energy levels of the decay products of a decay into two particles is discrete, this implied that there must have been a third particle, electrically chargeless and at least similarly small relative to the nucleus, like the electron \cite{Pauli_Letter}.
 \\ \\
-Since then, three generations of neutrinos have been discovered. The first discovery of neutrinos happened in 1956 at the Savannah River Plant \cite{nuebar_discovery}, with the discovery of the electron neutrino ($\nu_e$). Then, in 1962, the muon neutrino ($\nu_\mu$) was discovered at the Brookhaven National Lab \cite{numu_discovery}. The discovery of the last of the three currently known neutrino generations, the tau neutrino ($\nu_\tau$), took place in 2000 by the DONUT experiment at Fermilab \cite{nutau_discovery}. The number of active neutrino species interacting weakly, with masses below that of the Z-boson shows agreement with the amount of discovered neutrino generations \cite{neunumber_constraints}.
+Since then, three generations of neutrinos have been discovered. The first discovery of neutrinos happened in 1956 at the Savannah River Plant \cite{nuebar_discovery}, with the discovery of the electron neutrino ($\nu_e$). Then, in 1962, the muon neutrino ($\nu_\mu$) was discovered at the Brookhaven National Lab \cite{numu_discovery}. The discovery of the last of the three currently known neutrino generations, the tau neutrino ($\nu_\tau$), took place in 2000 by the DONUT experiment at Fermilab \cite{nutau_discovery}. The number of active neutrino species interacting weakly, with masses below that of the Z-boson $N_\nu =2.9840\pm0.0082$ shows agreement with the amount of discovered neutrino generations \cite{neunumber_constraints}.
 
 \subsection{Neutrinos in the Standard Model}
 
@@ -151,7 +151,7 @@ For three neutrino flavors this yields
 
 \begin{align}
 P_{\alpha \to \beta} = & \delta_{\alpha\beta} - 4 \sum_{i > j} \Re\left( U_{\beta i} U_{\beta j}^* U_{\alpha i}^* U_{\alpha j} \right) \sin^2\left( \frac{\Delta m_{ij}^2 L}{4E} \right) \nonumber \\
-& + 2 \sum_{i > j} \Im\left( U_{\beta i} U_{\beta j}^* U_{\alpha i}^* U_{\alpha j} \right) \sin\left( \frac{\Delta m_{ij}^2 L}{2E} \right).
+& + 2 \sum_{i > j} \Im\left( U_{\beta i} U_{\beta j}^* U_{\alpha i}^* U_{\alpha j} \right) \sin^2\left( \frac{\Delta m_{ij}^2 L}{2E} \right).
 \end{align}
 
 where $\delta_{\alpha\beta}$ is the Kronecker-Delta. As the mass splitting between $\Delta m_{21}^2=\mathcal{O}(10^{-5}) \text{ eV}^2$ and $\Delta m_{32}^2=\mathcal{O}(10^{-3}) \text{ eV}^2$ differs by orders of magnitude, a two flavor approximation can sometimes be accurate enough. In that case equation (11) simplifies to
@@ -160,20 +160,39 @@ where $\delta_{\alpha\beta}$ is the Kronecker-Delta. As the mass splitting betwe
 P(\nu_\alpha \to \nu_\beta) \approx \sin^2 2\theta \sin^2 \left(\frac{\Delta m^2 L}{4E}\right)
 \end{equation}
 
+As equation (12) demonstrates, the oscillation probability is determined by the mixing angles $\Theta$, mass splitting $\Delta m^2$ as well as the length traveled by the neutrino $L$, and the neutrino energy $E$. 
 
-\subsubsection{Neutrino Mass Ordering}
+\subsection{Neutrino Production}
 
-The consequence of equation (11) and (12) is that the measurement of neutrino oscillations gives us access to the parameters of the PMNS matrix as well as the mass splitting but not the absolute mass.
-\\ 
-There are two possible cases for the mass ordering to match our observations: normal ordering (NO), in which $m_1 < m_2 < m_3$, and inverted ordering (IO) $m_3 < m_1 < m_2$. 
-\\ \\
-While the question of the neutrino mass ordering remains open, significant results for the answer of this question are expected in the near future \cite{future_nmo_sensitivity}. As an investigation of the mass ordering would well be worth its own analysis and surpass the scope of this work, only the case of normal ordering will be considered ni this work.
-
-\subsection{Atmospheric Neutrino Oscillations}
-
-As equation (12) demonstrates, the oscillation probability is mainly determined by the mixing angles $\Theta$, mass splitting $\Delta m^2$ as well as the length travelled by the neutrino $L$, and the neutrino energy $E$.
+Neutrinos from different sources provide opportunities to probe the parameters of the three-flavor neutrino oscillation model in different regimes due to the respective source's energies $E$, baseline lengths $L$, and production mechanisms.
 \\
-Therefore, different experiments are able 
+In the following, the different types of sources relevant for the study of neutrino oscillations and production mechanisms will be discussed with particular emphasis on the atmospheric neutrinos relevant for this work. The information included in this section is extracted from chapter 14.6 in \cite{entire_pdg}.
+
+\subsubsection{Solar Neutrinos}
+
+Solar neutrinos are produced in the nuclear fusion processes in the sun, primarily through the $pp$ chain and the CNO cycle. These processes result in the production of electron neutrinos with an average energy below $1 \text{MeV}$.
+\\ \\
+As such, solar neutrino oscillations can be used to probe the 
+$\Delta m^2_{21}$, which dominate at the low energies characteristic of solar neutrinos. The oscillations are further enhanced by the Mikheyev-Smirnov-Wolfenstein (MSW) effect, due to matter interactions in the Sun, making solar neutrinos a powerful probe of $\theta_{12}$.
+
+\subsubsection{Reactor Neutrinos}
+
+Reactor neutrinos are produced via beta decay of neutron-rich fission products in nuclear reactors, primarily as $\bar{\nu}_e$. Reactor experiments at short baselines focus on $\nu_e$ disappearance, which is strongly governed by the mixing angle $\theta_{13}$ and the mass-squared difference $\Delta m^2_{32}$. The precise control over reactor neutrino flux and detection baselines allows for high-precision measurements of these parameters.
+
+\subsubsection{Accelerator Neutrinos}
+
+Accelerator neutrinos are generated by colliding high-energy protons into a target, producing pions and kaons that decay into neutrinos. These neutrinos allow precise control of energy and baseline, enabling the study of all three mixing angles ($\theta_{12}$, $\theta_{13}$, $\theta_{23}$), the mass-squared difference $\Delta m^2_{32}$, and the CP-violating phase $\delta_{\text{CP}}$. Long-baseline accelerator experiments, in particular, provide direct sensitivity to $\delta_{\text{CP}}$ by comparing neutrino and antineutrino oscillations. Together, these sources provide complementary information, enabling a comprehensive exploration of the three-flavor neutrino model.
+
+\subsubsection{Atmospheric Neutrinos}
+
+Atmospheric neutrinos are produced when high-energy cosmic rays, primarily protons, collide with nuclei in Earth’s atmosphere. These interactions generate cascades of secondary particles, including pions and kaons, which decay into muons and neutrinos. For example, a positively charged pion decays via $\pi^+ \to \mu^+ + \nu_\mu$, and the muon subsequently decays as $\mu^+ \to e^+ + \nu_e + \bar{\nu}_\mu$. This chain produces a mixture of muon neutrinos ($\nu_\mu$) and electron neutrinos ($\nu_e$), with $\nu_\mu$ dominating by approximately a factor of two due to the decay kinematics.
+
+Atmospheric neutrinos cover a wide range of energies, from hundreds of MeV to several TeV, and travel along diverse baselines, from a few kilometers (horizontal neutrinos) to over 12,000 kilometers (vertically upward neutrinos passing through Earth's core). This diversity makes atmospheric neutrinos a powerful tool to study neutrino oscillations across multiple scales. The long baselines allow the measurement of oscillations driven by the atmospheric mass-squared difference, $\Delta m^2_{32}$, and the mixing angle $\theta_{23}$. At lower energies, oscillations are also sensitive to subdominant effects from the solar parameters, $\Delta m^2_{21}$ and $\theta_{12}$.
+
+One key feature of atmospheric neutrino studies is their sensitivity to the neutrino mass ordering (normal or inverted). As neutrinos travel through Earth's dense matter, they experience the Mikheyev-Smirnov-Wolfenstein (MSW) effect, which alters the oscillation probabilities differently for neutrinos and antineutrinos depending on the mass hierarchy. By measuring differences in the oscillation patterns of upward-going neutrinos and antineutrinos, experiments like Super-Kamiokande, IceCube, and KM3NeT can probe the mass ordering. Additionally, these matter effects are sensitive to the octant of $\theta_{23}$—whether it is less than or greater than $45^\circ$—providing further constraints on this parameter.
+
+High-energy atmospheric neutrinos also allow tests of exotic phenomena beyond the standard three-flavor model. For instance, deviations from expected oscillation patterns at TeV energies could signal new physics, such as sterile neutrinos, non-standard interactions, or violations of Lorentz invariance. The large event samples and energy-angular coverage in experiments like IceCube make atmospheric neutrinos a unique probe of such effects. Together, atmospheric neutrino studies provide vital insights into neutrino mixing, the mass ordering, and the possibility of physics beyond the standard model.
+
 
 \begin{table}[h!]
 \centering
@@ -192,9 +211,17 @@ Cosmological (\(\nu\)) & Total Mass & \( \Sigma m_\nu \lesssim 0.12 \, \text{eV}
 
 \end{table}
 
+\subsection{Neutrino Oscillations in Matter}
+
+While the equations so far derived in the chapter 1.2 for the oscillation probability of neutrino flavors hold in vacuum, the presence of electrons, protons and neutrons in stable matter, allows the interaction of propagating neutrinos through charged- and neutral current interactions.
+\\
+Depending on the energy range
+
 \subsubsection{The MSW Effect}
 
-The Mikheyev-Smirnov-Wolfenstein (MSW) effect explains how neutrino oscillations are altered when neutrinos propagate through matter, such as the Sun or the Earth. In matter, neutrinos interact with electrons, and this interaction modifies the neutrino's effective potential. The presence of matter leads to a resonance condition where the neutrino flavor conversion probability can be maximized. The MSW effect plays a significant role in the solar neutrino problem and was crucial in explaining the deficit in the observed electron neutrinos.
+The Mikheyev-Smirnov-Wolfenstein (MSW) effect describes how the addition effective potentials alter neutrino oscillations due to the presence of matter. This effect is particularly relevant for solar and atmospheric neutrino oscillations.
+
+In matter, neutrinos interact with electrons, and this interaction modifies the neutrino's effective potential. The presence of matter leads to a resonance condition where the neutrino flavor conversion probability can be maximized. The MSW effect plays a significant role in the solar neutrino problem and was crucial in explaining the deficit in the observed electron neutrinos.
 
 The MSW effect modifies the effective Hamiltonian for neutrinos in matter, adding a matter potential term \( V_e \), which affects the oscillation probabilities:
 
@@ -203,6 +230,22 @@ P(\nu_e \to \nu_\alpha) = \sin^2 2\theta_{\text{eff}} \sin^2 \left(\frac{\Delta 
 \]
 
 where \( \theta_{\text{eff}} \) is the effective mixing angle in the presence of matter, which depends on the electron density.
+
+The sign of the matter potential is flipped depending on whether one considers neutrinos or antineutrinos. As such, the MSW effect affects the oscillation probability of neutrinos and antineutrinos differently.
+
+
+\subsubsection{Neutrino Mass Ordering}
+
+The consequence of equation (11) and (12) is that the measurement of neutrino oscillations gives us access to the parameters of the PMNS matrix as well as the mass splitting but not the absolute mass.
+\\ 
+There are two possible cases for the mass ordering to match our observations: normal ordering (NO), in which $m_1 < m_2 < m_3$, and inverted ordering (IO) $m_3 < m_1 < m_2$. 
+
+\begin{figure}[H]
+\includegraphics[width=\textwidth]{Neutrino_Figures/nmo.png}
+\caption{Composition of neutrino mass eigenstates $m_i$ in terms of the flavor eigenstates for normal and inverted ordering, extracted from \cite{nmo_image_source}}
+\end{figure}
+
+While the question of the neutrino mass ordering remains open, significant results for the answer of this question are expected in the near future \cite{future_nmo_sensitivity}. As an investigation of the mass ordering would well be worth its own analysis and surpass the scope of this work, only the case of normal ordering will be considered in this work.
 
 \subsubsection{Oscillation Anomalies}
 Over the years, several experiments have reported anomalies in neutrino oscillation data that suggest the presence of new physics. The LSND experiment observed an excess of electron antineutrinos in a muon neutrino beam, which could imply the existence of a sterile neutrino, a hypothesized fourth type of neutrino. Similarly, the reactor neutrino anomaly reported a deficit in the expected electron antineutrino flux, which might also point to the existence of sterile neutrinos or a systematic error in reactor neutrino measurements.
@@ -240,20 +283,22 @@ The current best-fit values for these parameters are summarized in Table~\ref{ta
 \caption{Current best-fit values for neutrino oscillation parameters.}
 \end{table}
 
-\section{Neutrino Oscillation Anomalies}
+\subsection{Neutrino Oscillation Anomalies}
+
+The mo
 
 Neutrino oscillation anomalies refer to experimental results that deviate from the expectations of the standard three-flavor neutrino model. These anomalies could indicate new physics, such as sterile neutrinos or exotic interactions, or they might arise from unresolved systematic uncertainties in experimental methods or theoretical predictions. Key anomalies include those observed in the LSND, MiniBooNE, reactor neutrino, and gallium experiments.
 
-\subsection{LSND Anomaly}  
+\subsubsection{LSND Anomaly}  
 The Liquid Scintillator Neutrino Detector (LSND) experiment reported an unexpected excess of $\bar{\nu}_e$ in a beam of $\bar{\nu}_\mu$ neutrinos, with a mass-squared difference ($\Delta m^2$) that cannot be reconciled with solar or atmospheric oscillation scales. This result hinted at the possible existence of sterile neutrinos.
 
-\subsection{MiniBooNE Anomaly}  
+\subsubsection{MiniBooNE Anomaly}  
 The MiniBooNE experiment confirmed some of the LSND findings, observing an excess of electron-like events in both neutrino and antineutrino modes at short baselines. These results suggest potential new physics beyond the three-flavor model, with interpretations involving sterile neutrinos or alternative explanations such as unexpected detector or background effects.
 
-\subsection{Reactor Antineutrino Anomaly}  
+\subsubsection{Reactor Antineutrino Anomaly}  
 Reactor-based experiments have measured a persistent deficit in the detected $\bar{\nu}_e$ flux compared to theoretical predictions, with the discrepancy potentially explained by oscillations into sterile neutrinos at a mass scale around 1~eV$^2$. Alternatively, uncertainties in predicted reactor antineutrino spectra could be a factor.
 
-\subsection{Gallium Anomaly}  
+\subsubsection{Gallium Anomaly}  
 Gallium-based solar neutrino detectors, such as those in the GALLEX and SAGE experiments, observed fewer neutrinos than expected when tested with radioactive sources. This deficit aligns with short-baseline oscillations involving sterile neutrinos, though other explanations are also being investigated.
 
 These anomalies are subjects of intense study, with upcoming experiments and refined models aiming to clarify their nature and potential implications for neutrino physics.
@@ -263,7 +308,7 @@ These anomalies are subjects of intense study, with upcoming experiments and ref
 
 Sterile neutrinos are hypothesized neutrinos that do not interact via the weak force and thus do not participate in the usual SU(2) weak interaction. They are typically proposed in models beyond the Standard Model (BSM) to explain anomalies in neutrino data, such as the LSND and reactor neutrino anomalies. In the 3+1 model, sterile neutrinos are added as a fourth neutrino state, beyond the three active flavors. These sterile neutrinos are assumed to have a mass at the eV2 scale, which can lead to observable effects in neutrino oscillations.
 
-\subsection{Theory of Sterile Neutrinos in the 3+1 Model}
+\subsection{The 3+1 Neutrino Model}
 
 The simplest extension of the three-flavor neutrino model involves introducing one additional sterile neutrino \( \nu_s \), resulting in the 3+1 model. In this model, the total number of neutrino mass eigenstates increases to four, and the flavor states are described as a superposition of these four mass eigenstates. The evolution of the flavor states over time is then governed by the standard neutrino oscillation formalism, but with an expanded set of mass eigenstates.
 
@@ -281,7 +326,9 @@ P(\nu_\alpha \to \nu_\beta) = \sum_{i,j} U_{\alpha i} U_{\beta i}^* U_{\alpha j}
 
 where \( \Delta m^2_{ij} = m_i^2 - m_j^2 \) represents the mass squared differences between the mass eigenstates, and \( L \) is the distance traveled by the neutrino.
 
-\subsection{Sterile Mass Generation}
+\subsection{Neutrino Mass Generation}
+
+As mentioned in chapter 1.1, neutrinos have no mass in the SM. 
 
 The mass of sterile neutrinos, specifically those with mass scales around the eV² range, can arise through several mechanisms that extend the Standard Model of particle physics. The two most commonly discussed mechanisms are the **seesaw mechanism** and **radiative corrections**, both of which provide a natural way to introduce sterile neutrinos with non-zero mass. These mechanisms allow for the sterile neutrinos to mix with the active neutrino states and participate in oscillations.
 
@@ -331,7 +378,7 @@ This matrix is a 4x4 unitary matrix, with elements \( U_{\alpha i} \) describing
 
 The mixing of the sterile neutrino is typically parameterized by introducing additional mixing angles \( \theta_{14}, \theta_{24}, \theta_{34} \) between the active neutrinos and the sterile neutrino. The CP-violating phase for the sterile neutrino also enters the matrix, making the matrix a function of more parameters than in the standard 3-flavor model.
 
-\subsection{Current Constraints from Experiments}
+\subsection{Current Constraints on Sterile Neutrinos}
 
 Current experimental constraints on the sterile neutrino sector come from a variety of experiments, including long-baseline oscillation experiments (T2K, NOvA), reactor neutrino experiments (Daya Bay, KamLAND), and short-baseline experiments (LSND, MiniBooNE, and Gallium anomalies). 
 
@@ -377,17 +424,13 @@ P(\nu_\mu \to \nu_s) = \sin^2(2\theta_{34}) \sin^2 \left( \frac{\Delta m^2_{31} 
 
 where \( \theta_{34} \) is the mixing angle between the muon neutrino and the sterile neutrino, and \( \Delta m^2_{31} \) is the mass squared difference between the mass eigenstates.
 
-\subsection{Matter Effects and the MSW Effect}
+\subsection{Sterile Neutrinos and Matter Effects}
 
 In the presence of matter, such as in the Sun or the Earth, the MSW effect can modify the oscillation probabilities of neutrinos. For active neutrinos, the matter effect causes resonant flavor conversion, where the neutrino flavor oscillates into another flavor at a specific resonance energy. For sterile neutrinos, the MSW effect can also influence the oscillation probabilities, particularly in regions of high electron density, such as in the Sun. 
 
 In the 3+1 model, the matter effects on sterile neutrinos are more complicated, as the sterile neutrino will not interact directly with the matter, but will still influence the oscillations of the active neutrinos. This can lead to modified oscillation patterns, especially in long-baseline experiments where neutrinos pass through the Earth and experience matter effects. For example, in solar neutrino oscillations, the presence of a sterile neutrino can change the effective mixing angle, thus modifying the observed oscillation pattern.
 
 The MSW effect for sterile neutrinos is generally weaker than for active neutrinos, but it can still impact the oscillation probability asymmetry, especially for high-energy neutrinos where the matter potential is significant. In this scenario, the transition from an active to a sterile neutrino may exhibit different oscillation probabilities compared to the predictions in the standard 3-flavor model.
-
-\subsection{The 3+1 Model}
-\subsection{Sterile Constraints}
-\subsection{Sterile Oscillations}
 
 
 \bibliography{neuReferences}

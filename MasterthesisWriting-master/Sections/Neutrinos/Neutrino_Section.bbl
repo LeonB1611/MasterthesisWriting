@@ -1,4 +1,4 @@
-\begin{thebibliography}{1}
+\begin{thebibliography}{10}
 
 \bibitem{Pauli_Letter}
 W.~Pauli.
@@ -89,6 +89,22 @@ Y.~Fukuda, T.~Hayakawa, E.~Ichihara, K.~Inoue, K.~Ishihara, H.~Ishino, Y.~Itow,
 \newblock URL: \url{http://dx.doi.org/10.1103/PhysRevLett.81.1562}, \href
   {https://doi.org/10.1103/physrevlett.81.1562}
   {\path{doi:10.1103/physrevlett.81.1562}}.
+
+\bibitem{entire_pdg}
+S.~Navas et~al.
+\newblock {Review of particle physics}.
+\newblock {\em Phys. Rev. D}, 110(3):030001, 2024.
+\newblock \href {https://doi.org/10.1103/PhysRevD.110.030001}
+  {\path{doi:10.1103/PhysRevD.110.030001}}.
+
+\bibitem{nmo_image_source}
+Vito Antonelli, Lino Miramonti, and Gioacchino Ranucci.
+\newblock Present and future contributions of reactor experiments to mass
+  ordering and neutrino oscillation studies.
+\newblock {\em Universe}, 6(4), 2020.
+\newblock URL: \url{https://www.mdpi.com/2218-1997/6/4/52}, \href
+  {https://doi.org/10.3390/universe6040052}
+  {\path{doi:10.3390/universe6040052}}.
 
 \bibitem{future_nmo_sensitivity}
 M.~G. Aartsen, M.~Ackermann, J.~Adams, J.~A. Aguilar, M.~Ahlers, M.~Ahrens,
